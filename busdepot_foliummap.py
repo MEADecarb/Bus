@@ -45,7 +45,8 @@ def add_geojson_from_url(geojson_url, name, color, map_obj):
 github_geojson_sources = [
     ("https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Retail_Service_Territories/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson", "Electric Retail Service Territories"),
     ("https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/MDOT_SHA_County_Boundaries/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson", "MDOT SHA County Boundaries"),
-    ("https://meadecarb.github.io/GEO/map.geojson", "MD HB550 Overburdened Census Tracts")
+    ("https://meadecarb.github.io/GEO/map.geojson", "MD HB550 Overburdened Census Tracts"), 
+    ("https://raw.githubusercontent.com/MEADecarb/Bus/main/busdepot.geojson", "Bus Depots"),
 ]
 
 for i, (url, name) in enumerate(github_geojson_sources):
