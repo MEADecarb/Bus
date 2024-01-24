@@ -3,5 +3,5 @@ title: Mayland School Bus Depots
 description: An interactive map for school bus electrification planning in MD. 
 plugins:
 - jekyll-remote-theme 
-baseurl: "/OSW" # the subpath of your site, e.g. /blog
+baseurl: "/bus" # the subpath of your site, e.g. /blog
 url: "https://MEADecarb.github.io" # the base hostname & protocol for your site
