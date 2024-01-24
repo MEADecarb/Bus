@@ -1,0 +1,7 @@
+theme: jekyll-theme-minimal
+title: Mayland Offshore Wind
+description: An interactive map for Offshore Wind in Maryland. 
+plugins:
+- jekyll-remote-theme 
+baseurl: "/OSW" # the subpath of your site, e.g. /blog
+url: "https://MEADecarb.github.io" # the base hostname & protocol for your site
