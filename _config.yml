@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
-title: Mayland Offshore Wind
-description: An interactive map for Offshore Wind in Maryland. 
+title: Mayland School Bus Depots
+description: An interactive map for school bus electrification planning in MD. 
 plugins:
 - jekyll-remote-theme 
 baseurl: "/OSW" # the subpath of your site, e.g. /blog
